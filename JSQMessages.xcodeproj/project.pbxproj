@@ -99,7 +99,7 @@
 		88A2601719D8E18400924534 /* JSQMessagesLoadEarlierHeaderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A25FFE19D8E18400924534 /* JSQMessagesLoadEarlierHeaderViewTests.m */; };
 		88A2601819D8E18400924534 /* JSQMessagesToolbarContentViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A25FFF19D8E18400924534 /* JSQMessagesToolbarContentViewTests.m */; };
 		88A2601919D8E18400924534 /* JSQMessagesTypingIndicatorFooterViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2600019D8E18400924534 /* JSQMessagesTypingIndicatorFooterViewTests.m */; };
-		88A2601B19D8E45600924534 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88A2601A19D8E45600924534 /* Info.plist */; };
+		88A2601B19D8E45600924534 /* JSQMessagesDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88A2601A19D8E45600924534 /* JSQMessagesDemo-Info.plist */; };
 		88A901B619F618B100F99777 /* JSQMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A901B519F618B100F99777 /* JSQMediaItem.m */; };
 		88B5C41F1B7C422900EC79D4 /* JSQMessagesBubblesSizeCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5C41E1B7C422900EC79D4 /* JSQMessagesBubblesSizeCalculator.m */; };
 		88C00A4E1A44D4C600B004B3 /* JSQLocationMediaItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C00A4D1A44D4C600B004B3 /* JSQLocationMediaItemTests.m */; };
@@ -153,7 +153,7 @@
 		8885734C19DE55D000E89D20 /* NSUserDefaults+DemoSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+DemoSettings.m"; sourceTree = "<group>"; };
 		88A25F0219D8DEC400924534 /* JSQMessages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSQMessages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A25F1B19D8DEC500924534 /* JSQMessagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSQMessagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		88A25F2019D8DEC500924534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A25F2019D8DEC500924534 /* JSQMessagesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSQMessagesTests-Info.plist"; sourceTree = "<group>"; };
 		88A25F2C19D8DF2500924534 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88A25F2D19D8DF2500924534 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		88A25F3119D8DF2500924534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -258,7 +258,7 @@
 		88A25FFE19D8E18400924534 /* JSQMessagesLoadEarlierHeaderViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesLoadEarlierHeaderViewTests.m; sourceTree = "<group>"; };
 		88A25FFF19D8E18400924534 /* JSQMessagesToolbarContentViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesToolbarContentViewTests.m; sourceTree = "<group>"; };
 		88A2600019D8E18400924534 /* JSQMessagesTypingIndicatorFooterViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesTypingIndicatorFooterViewTests.m; sourceTree = "<group>"; };
-		88A2601A19D8E45600924534 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A2601A19D8E45600924534 /* JSQMessagesDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JSQMessagesDemo-Info.plist"; sourceTree = "<group>"; };
 		88A901B419F618B100F99777 /* JSQMediaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQMediaItem.h; sourceTree = "<group>"; };
 		88A901B519F618B100F99777 /* JSQMediaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMediaItem.m; sourceTree = "<group>"; };
 		88B5C41D1B7C422900EC79D4 /* JSQMessagesBubblesSizeCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQMessagesBubblesSizeCalculator.h; sourceTree = "<group>"; };
@@ -373,7 +373,7 @@
 		88A25F1F19D8DEC500924534 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				88A25F2019D8DEC500924534 /* Info.plist */,
+				88A25F2019D8DEC500924534 /* JSQMessagesTests-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -390,7 +390,7 @@
 				8885734819DE540400E89D20 /* DemoSettingsViewController.h */,
 				8885734919DE540400E89D20 /* DemoSettingsViewController.m */,
 				88A25F3219D8DF2500924534 /* Images.xcassets */,
-				88A2601A19D8E45600924534 /* Info.plist */,
+				88A2601A19D8E45600924534 /* JSQMessagesDemo-Info.plist */,
 				88A25F3419D8DF2500924534 /* main.m */,
 				88A25F3019D8DF2500924534 /* Main.storyboard */,
 				8885734B19DE55D000E89D20 /* NSUserDefaults+DemoSettings.h */,
@@ -677,9 +677,11 @@
 				TargetAttributes = {
 					88A25F0119D8DEC400924534 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 87N724V2PB;
 					};
 					88A25F1A19D8DEC400924534 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 87N724V2PB;
 						TestTargetID = 88A25F0119D8DEC400924534;
 					};
 				};
@@ -689,6 +691,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				es,
@@ -738,7 +741,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88A2601B19D8E45600924534 /* Info.plist in Resources */,
+				88A2601B19D8E45600924534 /* JSQMessagesDemo-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1005,7 +1008,8 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/JSQMessagesDemo/Info.plist";
+				DEVELOPMENT_TEAM = 87N724V2PB;
+				INFOPLIST_FILE = "$(SRCROOT)/JSQMessagesDemo/JSQMessagesDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -1024,7 +1028,8 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/JSQMessagesDemo/Info.plist";
+				DEVELOPMENT_TEAM = 87N724V2PB;
+				INFOPLIST_FILE = "$(SRCROOT)/JSQMessagesDemo/JSQMessagesDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -1040,12 +1045,13 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = 87N724V2PB;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = JSQMessagesTests/Info.plist;
+				INFOPLIST_FILE = "JSQMessagesTests/JSQMessagesTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1059,8 +1065,9 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = 87N724V2PB;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = JSQMessagesTests/Info.plist;
+				INFOPLIST_FILE = "JSQMessagesTests/JSQMessagesTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
